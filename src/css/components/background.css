@@ -1,0 +1,51 @@
+.background {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.background::after {
+  left: 0;
+  top: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background: #000;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+}
+
+.background p {
+  color: white;
+  position: relative;
+  z-index: 1;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.background h1 {
+  color: white;
+  position: relative;
+  z-index: 1;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.background h1::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background: white;
+}

@@ -1,0 +1,19 @@
+.photoplace {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.photoplace h2 {
+  padding: 20px;
+}
+
+.photoplace .combobox {
+  padding: 20px;
+}
+.photoplace .combobox .my-className {
+  max-width: 500px;
+  margin: auto;
+  color: black;
+  font-size: 20px;
+}

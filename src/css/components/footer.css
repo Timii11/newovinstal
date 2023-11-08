@@ -1,0 +1,67 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  color: white;
+  font-size: 20px;
+  background: #222222;
+  z-index: -1;
+}
+
+footer .footercontent {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footercontent h3:before {
+  content: "";
+  position: absolute;
+  transform: translate(0px, 29px);
+  width: 50px;
+  height: 2px;
+  background: #f25c05;
+}
+
+footer .about,
+.explore,
+.infocontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer .about {
+  width: 300px;
+}
+
+footer .about .icons {
+  display: flex;
+  width: 40px;
+}
+
+footer .explore ul li {
+  list-style: none;
+}
+footer .explore ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  footer {
+    padding: 20px;
+    height: 600px;
+  }
+  footer .footercontent {
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}

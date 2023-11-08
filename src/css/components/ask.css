@@ -1,0 +1,22 @@
+.ask {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  background: #f5b33c;
+  height: 40vh;
+  margin-top: 20px;
+}
+
+.ask h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .ask h1 {
+    font-size: 7vw;
+  }
+}

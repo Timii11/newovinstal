@@ -1,0 +1,20 @@
+.simpletitle {
+  display: block;
+  text-align: center;
+  padding: 25px;
+}
+
+.simpletitle p {
+  width: 100%;
+  font-size: 25px;
+  color: gray;
+}
+.simpletitle h3 {
+  font-size: 50px;
+}
+
+.simpletitle h3 a {
+  font-family: "Bodoni MT";
+  font-size: 70px;
+  color: #f28d35;
+}

@@ -1,0 +1,62 @@
+.page .simplecardplace {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page .videocontent {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.page .videocontent video {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.page .vertical-line {
+  width: 1px;
+  height: 100px;
+  background: black;
+  text-align: center;
+  margin: auto;
+}
+
+.page .gallerycardplacewrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.page .gallerycardplace {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+  .page .videocontent video {
+    max-width: 100vw;
+  }
+}

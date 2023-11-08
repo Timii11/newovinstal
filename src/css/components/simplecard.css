@@ -1,0 +1,23 @@
+.simplecard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 300px;
+  border-bottom: 1px solid #c8c8c8;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.simplecard img {
+  height: 100px;
+  width: 100px;
+}
+
+.simplecard .simplecardtext {
+  font-size: 20px;
+  width: 300px;
+}

@@ -1,0 +1,18 @@
+.contactcard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  margin: 5px;
+  padding: 0;
+  width: auto;
+  height: auto;
+  max-height: 50px;
+}
+
+.contactcard .text {
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
